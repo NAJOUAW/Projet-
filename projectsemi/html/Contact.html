@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CONTACT</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+    <link rel="stylesheet" href="../CSS/Contact.css">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- fontawesom js -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body>
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo"><img src="../img/loggo.png"></label>
+      <ul>
+        <li><a class="active" href="../index.html" target="_blank">Acceuil</a></li>
+        <li><a href="#">A Propos</a></li>
+        <li><a href="../html/service.html">Services</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="../html/form.html" target="_blank">Connecter</a></li>
+      </ul>
+    </nav>
+
+    <!-- FORMS -->
+    <div><img src="../img/contact.jpg" alt="contact image" class="contact"></div>
+    <div class="container">
+        <form action="/action_page.php">
+            <label for="fname"> Nom  Et  Prenom </label>
+            <input type="text" id="fname" name="firstname" placeholder="Votre Nom Prenom...">
+    
+    
+            <label for="E-mail">E-mail</label>
+            <input type="text" id="E-mail" name="E-mail" placeholder="Votre E-mail...">
+    
+            <label for="Number">Numéro de Téléphone</label>
+            <input type="text" id="Number" name="Number" placeholder="Votre Numéro de telephone...">
+    
+            
+            <label for="services">Services</label>
+            <select id="services" name="services">
+                <option value="site web">Site Web</option>
+                <option value="desgin">Desgin</option>
+                <option value="CMS">CMS</option>
+                <option value="Tanger">SEO</option>
+            </select>
+    
+            <label for="subject">Objet</label>
+            <textarea id="subject" name="subject" placeholder="Exprimez vous.." style="height:80px"></textarea>
+    
+            <input type="submit" value="Submit">
+        </form>
+        </div>
+
+        <!-- FOOTER SECTIONS -->
+    <footer>
+        <div class="footer-content">
+            <img src="../img/logi1.png" alt="logo" class="logofooter">
+            <h3>WEBIT</h3>
+            <p>Agadir Avenue Hassan II +212 6789 788 </p>
+            <ul class="socialm">
+                <!-- Add font awesome icons -->
+                <li><a href="#" class="fa fa-pinterest"></a></li>
+                <li><a href="#" class="fa fa-twitter"></a></li>
+                <li><a href="#" class="fa fa-facebook"></a></li>
+                <li><a href="#" class="fa fa-instagram"></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom"> 
+            <p>copyright &copy;2021 WEBIT</p>
+        </div>
+    </footer>
+    
+  </body>
+</html>
